@@ -3,7 +3,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link:  "#contact" },
+  { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -103,7 +103,7 @@ export const testimonials = [
       "Neel has demonstrated exceptional performance during their internship, showcasing impressive frontend skills with strong attention to detail and creativity. Their backend knowledge complemented their work effectively, enabling seamless integration. During his stay in the company as an intern , he displays enthusiasm, leadership, self-disipline and self-motivation!. We are lucky to have him as an interns before and we would like to wish him all the Best",
     name: "Chanchal Goyal",
     title: "Director of Vigorus Healtech Private limited",
-    image: "/ch.png",
+    image: "/chanchal.png",
   },
   {
     quote:
