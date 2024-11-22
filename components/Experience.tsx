@@ -44,7 +44,7 @@ const Experience = () => {
                   {card.desc}
                 </p>
                 <p className="text-start">
-                  worked @: <Link href={card.url} className="underline text-purple"> {card.place}</Link>
+                  worked @: <Link href={card.url} target="-blank" className="underline text-purple"> {card.place}</Link>
                 </p>
               </div>
             </div>

@@ -73,68 +73,44 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Portfolio website",
+    des: "Modern portfolio showcasing projects and skills, built with Next.js for performance, scalability, and responsiveness.",
     img: "/main.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://portfolio-site-ten-ebon.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Bank Management System",
+    des: "A C++ Bank Management System utilizing advanced OOP concepts to handle real-life banking operations like account creation, unique ID generation, cash withdrawals, and transaction management efficiently.",
     img: "/c.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/c.svg", "/oop.png", "/cpp.png"],
+    link: "/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "comming soon...",
+    des: "A REAL Software-as-a-Service website with AI features and a online resort booking system using the latest tech stack.",
+    img: "/air.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "/comming soon...",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Neel has demonstrated exceptional performance during their internship, showcasing impressive frontend skills with strong attention to detail and creativity. Their backend knowledge complemented their work effectively, enabling seamless integration. During his stay in the company as an intern , he displays enthusiasm, leadership, self-disipline and self-motivation!. We are lucky to have him as an interns before and we would like to wish him all the Best",
+    name: "Chanchal Goyal",
+    title: "Director of Vigorus Healtech Private limited",
+    image: "/ch.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Neel was an absolute pleasure.He showcased excellent skills in UI/UX design, creating intuitive, user-friendly interfaces. Their strong frontend expertise, creativity, and proactive problem-solving made them a valuable asset throughout their internship. Great potential!!",
+    name: "S.K. Jagannath Charya",
+    title: "Founder of FLAC services",
+    image: "/sk.png",
   },
 ];
 
@@ -175,10 +151,10 @@ export const workExperience = [
   {
     id: 1,
     title: "Fullstack Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Assisted in the development of a web-based platform using Next.js, enhancing interactivity.",
     className: "md:col-span-2",
-    place: "test",
-    url: "test.com",
+    place: "Chikitsa.io",
+    url: "https://www.chikitsa.io/",
     thumbnail: "/exp1.svg",
   },
   {
@@ -186,8 +162,8 @@ export const workExperience = [
     title: "Freelance Web App Dev Project",
     desc: "Led the dev of a Web app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
-    place: "test",
-    url: "test.com",
+    place: "khatanas",
+    url: "https://khatanas.com/",
     thumbnail: "/exp3.svg",
   },
   {
@@ -195,8 +171,8 @@ export const workExperience = [
     title: "Lead Frontend Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
-    place: "test",
-    url: "test.com",
+    place: "Flacservices",
+    url: "flacservices.in",
     thumbnail: "/exp4.svg",
   },
   // {
@@ -212,13 +188,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Neelbhat",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/BhatnagarNeel",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/neel-bhatnagar-04a413227/",
   },
 ];
