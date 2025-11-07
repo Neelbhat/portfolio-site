@@ -112,6 +112,13 @@ export const testimonials = [
     title: "Founder of FLAC services",
     image: "/sk.png",
   },
+  {
+    quote:
+      "Collaborating with Neel was an absolute pleasure.He showcased excellent skills in UI/UX design, creating intuitive, user-friendly interfaces. Their strong frontend expertise, creativity, and proactive problem-solving made them a valuable asset throughout their internship. Great potential!!",
+    name: "Ajay singh Hada",
+    title: "Founder of Ariaiq Technology",
+    image: "/sk.png",
+  },
 ];
 
 export const companies = [
@@ -148,8 +155,18 @@ export const companies = [
 ];
 
 export const workExperience = [
+  
   {
     id: 1,
+    title: "Software Engineer",
+    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    className: "md:col-span-2",
+    place: "Ariaiq Technology",
+    url: "https://ariaiq.com/",
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 2,
     title: "Fullstack Engineer Intern",
     desc: "Assisted in the development of a web-based platform using Next.js, enhancing interactivity.",
     className: "md:col-span-2",
@@ -158,7 +175,7 @@ export const workExperience = [
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Freelance Web App Dev Project",
     desc: "Led the dev of a Web app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
@@ -167,7 +184,7 @@ export const workExperience = [
     thumbnail: "/exp3.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Lead Frontend Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
@@ -175,6 +192,7 @@ export const workExperience = [
     url: "flacservices.in",
     thumbnail: "/exp4.svg",
   },
+  
   // {
   //   id: 4,
   //   title: "Lead Frontend Developer",
